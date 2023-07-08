@@ -19,6 +19,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+h2 {
+  text-align: center;
+}
 .quiz-container {
   background-color: whitesmoke;
   width: 600px;
@@ -45,7 +49,11 @@ ul {
   font-size: 1.2rem;
 }
 ul li {
+  font-size: 1.2rem;
   margin: 1rem 0;
+}
+ul li label {
+  cursor: pointer;
 }
 button {
   border: none;
